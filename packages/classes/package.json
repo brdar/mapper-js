@@ -6,7 +6,7 @@
     "module": "./index.js",
     "types": "./src/index.d.ts",
     "peerDependencies": {
-        "automapper-core": "^8.7.13",
+        "automapper-core": "latest",
         "reflect-metadata": "~0.1.13 || ^0.2.0"
     },
     "exports": {
