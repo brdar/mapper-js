@@ -1,4 +1,4 @@
-import version from '../../version.json' assert { type: 'json' };
+import version from '../../version.json' with { type: 'json' };
 import fs from 'fs-extra';
 import path from 'path';
 

@@ -1,4 +1,4 @@
-import version from '../../version.json' assert { type: 'json' };
+import version from '../../version.json' with { type: 'json' };
 import { readJsonFile, writeJsonFile } from 'nx/src/utils/fileutils.js';
 
 const peerDeps = ['automapper-core', 'automapper-classes'];
