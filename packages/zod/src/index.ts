@@ -1,1 +1,1 @@
-export * from './lib/zod';
+export * from './lib/zod.js';

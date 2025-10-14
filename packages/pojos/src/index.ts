@@ -1,2 +1,2 @@
-export * from './lib/pojos';
-export * from './lib/metadata-map';
+export * from './lib/pojos.js';
+export * from './lib/metadata-map.js';
