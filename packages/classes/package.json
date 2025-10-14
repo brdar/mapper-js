@@ -2,25 +2,49 @@
     "name": "automapper-classes",
     "version": "0.0.0",
     "type": "module",
+    "main": "./index.cjs",
+    "module": "./index.js",
+    "types": "./src/index.d.ts",
     "peerDependencies": {
-        "automapper-core": "latest",
+        "automapper-core": "^8.7.13",
         "reflect-metadata": "~0.1.13 || ^0.2.0"
     },
     "exports": {
         ".": {
             "types": "./src/index.d.ts",
-            "import": "./index.js",
-            "require": "./index.cjs"
+            "import": {
+                "types": "./src/index.d.ts",
+                "default": "./index.js"
+            },
+            "require": {
+                "types": "./src/index.d.ts",
+                "default": "./index.cjs"
+            },
+            "default": "./index.js"
         },
         "./transformer-plugin": {
             "types": "./transformer-plugin/index.d.ts",
-            "import": "./transformer-plugin/index.js",
-            "require": "./transformer-plugin/index.cjs"
+            "import": {
+                "types": "./transformer-plugin/index.d.ts",
+                "default": "./transformer-plugin/index.js"
+            },
+            "require": {
+                "types": "./transformer-plugin/index.d.ts",
+                "default": "./transformer-plugin/index.cjs"
+            },
+            "default": "./transformer-plugin/index.js"
         },
         "./mapped-types": {
             "types": "./mapped-types/index.d.ts",
-            "import": "./mapped-types/index.js",
-            "require": "./mapped-types/index.cjs"
+            "import": {
+                "types": "./mapped-types/index.d.ts",
+                "default": "./mapped-types/index.js"
+            },
+            "require": {
+                "types": "./mapped-types/index.d.ts",
+                "default": "./mapped-types/index.cjs"
+            },
+            "default": "./mapped-types/index.js"
         }
     },
     "sideEffects": false,
