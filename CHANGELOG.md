@@ -1,5 +1,7 @@
 
 
+### [8.8.1](https://github.com/brdar/mapper-js/compare/8.7.16...8.8.1) (2026-10-22)
+
 ### [8.7.16](https://github.com/brdar/mapper-js/compare/8.7.15...8.7.16) (2025-10-14)
 
 ### [8.7.15](https://github.com/brdar/mapper-js/compare/8.7.14...8.7.15) (2025-10-14)
